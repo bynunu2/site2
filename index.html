@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <title>eterno restaurante</title>
+ <style>/* Estilo da animação de boas-vindas */
+    .welcome-message {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: translateY(-20px);
+      transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    }
+    
+    .welcome-message.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    </style>
+
+
+</head>
+<body>
+    <div id="welcome-message" class="welcome-message">
+        Bem-vindo ao Restaurante Eterno!
+      </div>
+      <script>
+        // Função para exibir a mensagem de boas-vindas
+        function showWelcomeMessage() {
+          var message = document.getElementById('welcome-message');
+          message.classList.add('show');
+          
+          // Alerta após a animação
+          setTimeout(function() {
+            alert('Bem-vindo ao Restaurante Eterno! Esperamos que você tenha uma experiência inesquecível.');
+          }, 500); // Atraso de 500ms para permitir a animação antes do alerta
+        }
+      
+        // Exibir a mensagem ao carregar a página
+        window.onload = showWelcomeMessage;
+      </script>
+      
+    <header>
+        <h1><img src="logo_eterno.png" alt="logo_eterno"></h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <img src="banner.png"  width="100%" alt="banner"> 
+
+<section class="banner">
+ <!-- Banner da página-->
+
+</section>
+
+<section class= "container"> 
+    <div class="product"> 
+        <img src="images - Copia/aham.jpg" alt="Local">
+        <h2>Local</h2>
+        <p>Rua Esperança, 7 - SP</p>
+        <div class=" price">Um local nostálgico!</div>
+    </div>
+        <div class="product"> 
+            <img src="images - Copia/vibe.jpg" alt="Espaço">
+            <h2>Espaço</h2>
+            <p>Um espaço criado para boas memórias!</p>
+            <div class=" price">Criado para o conforto.</div>
+        </div>
+        <div class="product"> 
+            <img src="images - Copia/menuuuyyuuuu.jpg" alt="Menu">
+            <h2>Menu</h2>
+            <p>Menu das lembranças</p>
+            <div class=" price">Culinária Afetiva! </div>
+        </div>
+        <div class="product"> 
+            <img src="images - Copia/ihi.jpeg" alt="Sobre">
+            <h2>O enredo da nossa história</h2>
+            <p>Nossa história é regada de amor e afeição.</p>
+            <div class=" price">Uma história de geração!</div>
+        </div>
+        <!-- Adicionar mais produtos aqui -->
+
+    </section>
+    <div class="container">
+
+
+
+        <section id="home">
+            <h2>Home</h2>
+            <p> A palavra “eterno” carrega consigo um profundo senso de continuidade e permanência. Originada do latim “aeternus”, que significa “sem fim” ou “perpétuo”, o termo refere-se a algo que transcende o tempo, permanecendo constante e imutável através das eras. 
+                No contexto do Restaurante Eterno, o significado de “eterno” vai além de uma simples referência ao tempo; ele encapsula uma filosofia que valoriza a durabilidade das memórias e a profundidade dos sentimentos humanos. Para nós, o “eterno” não é apenas uma palavra, 
+                mas uma experiência sensorial que busca capturar a essência do que é duradouro e significativo. Em nossa cozinha, trabalhamos para criar pratos que não apenas satisfaçam o paladar, mas que também evoquem a sensação de algo que perdura. Nossos sabores são uma 
+                homenagem às receitas e tradições que resistiram ao teste do tempo, oferecendo uma conexão tangível com o passado e uma promessa de continuidade.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <p> Nosso menu é inspirado nas receitas que passaram de geração em geração, trazendo à tona sabores que remetem às memórias mais queridas. Combinamos técnicas culinárias clássicas com um toque moderno para criar pratos que são 
+                ao mesmo tempo familiares e surpreendentes. No Restaurante Eterno, a nostalgia é mais do que uma sensação — é uma experiência gustativa que celebra o passado e o presente. Acreditamos que a verdadeira magia acontece quando a comida não é apenas consumida, mas vivida. 
+                Cada refeição no Eterno é uma oportunidade para partilhar momentos especiais com amigos e familiares, para construir novas memórias enquanto saboreia pratos que tocam o coração. 
+                Nossa missão é transformar cada visita em uma celebração de momentos inesquecíveis, onde a comida e a companhia se entrelaçam em um abraço caloroso de afeições e recordações.No Restaurante Eterno, convidamos você a se sentar à mesa e deixar que nossos pratos lhe contem histórias, 
+                lhe tragam conforto e lhe proporcionem uma experiência verdadeiramente memorável. Porque, no fundo, sabemos que a verdadeira essência da alimentação está em sua capacidade de nos conectar com o que é mais precioso: nossas memórias e nossos afetos.</p>
+
+        </section>
+
+       
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p> O conceito de “eterno” está intimamente ligado às memórias afetivas que compartilhamos com aqueles que amamos. Cada refeição no Restaurante Eterno é uma oportunidade para criar e reviver momentos especiais. 
+                Assim como uma memória querida permanece conosco por toda a vida, o sabor dos nossos pratos é pensado para deixar uma impressão duradoura. 
+                Queremos que cada visita ao nosso restaurante seja uma experiência que você recorde com carinho, como uma lembrança que se mantém viva e relevante.Ao escolher o Restaurante Eterno, você está se permitindo explorar a magia do que é verdadeiramente duradouro. 
+                Convidamos você a se unir a nós para uma jornada onde o eterno não é apenas uma ideia, mas uma experiência vivida em cada garfada e em cada momento compartilhado.
+                Fundado em 1984, o Restaurante Eterno é a realização de um sonho que atravessa gerações. A história do Eterno começa no coração de uma família dedicada à arte da culinária e à hospitalidade. A tradição teve início com os avós fundadores, Maria e João, que abriram um pequeno restaurante na década de 1970, em uma pitoresca vila do interior.
+                Com receitas transmitidas de geração em geração, Maria e João eram conhecidos por seu talento excepcional na cozinha e pela maneira calorosa com que recebiam seus convidados. Seu restaurante tornou-se um ponto de encontro 
+                querido na comunidade, um lugar onde pratos simples se transformavam em celebrações memoráveis e cada refeição era uma demonstração de amor e cuidado.
+                Com o passar dos anos, a tradição foi passando para os filhos, Ana e José, que continuaram o legado familiar com o mesmo entusiasmo e paixão. Eles expandiram o restaurante, mantendo as receitas tradicionais, mas também introduzindo novas influências para atender às mudanças dos tempos e às novas gerações. Sob sua direção, 
+                o restaurante tornou-se um símbolo de qualidade e autenticidade, mantendo a essência do que o tornou especial. Hoje, o Restaurante Eterno é liderado pela neta Ana Paula e Wisley, seu marido,  que viveram cercados pela magia da cozinha e pela rica herança familiar. Com um profundo respeito pela tradição e uma visão inovadora, eles reimaginaram o espaço, criando um ambiente que honra o passado enquanto abraça o futuro. 
+                Cada prato no cardápio é uma homenagem às receitas originais de Maria e João, cuidadosamente aperfeiçoadas e apresentadas com um toque moderno.
+            </p>
+               
+        </section>
+       
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Restaurante Eterno
+
+                Rua Esperança, 7 - São Paulo, SP, 00000-000 <br>
+                
+                Telefone: (11) 1234-5678 <br>
+                
+                E-mail: contato@restauranteeterno.com.br <br>
+                
+                Site: www.restauranteeterno.com.br <br>
+                
+                Horário de Funcionamento:<br>
+                
+                Segunda a Sexta: 11h00 - 22h00 <br>
+                Sábado e Domingo: 12h00 - 23h00 <br>
+                Redes Sociais:<br>
+                
+                Facebook: facebook.com/restauranteeterno<br>
+                Instagram: @restauranteeterno<br>
+                
+                Observação: Para reservas e eventos especiais, entre em contato pelo e-mail ou telefone.<br></p>
+                
+                <section id="Venha nos visitar!">
+                    <h2>Venha nos visitar!</h2>
+                    <h1>Reservas</h1>
+                    <p>Para garantir a melhor experiência, recomendamos que você faça sua reserva com antecedência. <br>
+                        Utilize nosso sistema de reservas online ou entre em contato conosco pelo telefone (11) 1234-5678 ou e-mail reservas@restauranteeterno.com.br. <br>
+                        Estamos aqui para ajudar a tornar sua visita especial e personalizada.br <br>
+                        Faça sua reserva online: Reserve uma mesa</p>
+                    <h1>Experiência ao Ar Livre</h1>
+                    <p>Desfrute de uma refeição ao ar livre em nosso charmoso jardim, onde você pode saborear nossos pratos em um ambiente tranquilo e natural. 
+                        Ideal para almoços relaxantes ou jantares à luz das estrelas, o espaço é perfeito para quem busca uma experiência gastronômica diferenciada.</p>
+                    <h1>Blog</h1>
+                    <p> Fique por dentro das novidades, receitas exclusivas e histórias dos bastidores do Restaurante Eterno. 
+                        Nosso blog é o lugar para descobrir mais sobre nossa tradição culinária e as últimas atualizações da nossa equipe.
+                        Leia o blog: Visite nosso blog</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                   </section>
+        </section>
+    </div>
+    <footer>
+        <P>&copy; 2024 Eterno restaurante. Todos os direitos reservados.</P>
+    </footer>
+    
+    
+    </body>
+    
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
